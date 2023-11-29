@@ -4,6 +4,6 @@ driver = webdriver.Chrome()
 driver.get("https://www.tezo.com")
 
 element = driver.find_element("css selector", "h2")
-print("Version 3: " + element.text)
+print("Text present in the h2 tag is " + element.text)
 
 driver.quit()
